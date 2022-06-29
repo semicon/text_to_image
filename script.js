@@ -19,7 +19,7 @@ Vue.createApp({
     data:function(){
         return {
             url:"",
-            w:300,
+            w:150,
             h:150,
             p1:''
         }
@@ -47,7 +47,7 @@ Vue.createApp({
     data:function(){
         return {
             url:"",
-            w:150,
+            w:300,
             h:150,
             string:"",
             fontsize:"",
