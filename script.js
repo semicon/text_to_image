@@ -1,5 +1,5 @@
-var baseUrl = document.getElementById("js-appjs").src.replace(/\/script\.js.*/, '')
-
+//var baseUrl = document.getElementById("js-appjs").src.replace(/\/script\.js.*/, '')
+var baseUrl = 'https://placehold.jp'
 // ga
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-33501423-1']);
@@ -27,8 +27,8 @@ Vue.createApp({
     mounted: function(){this.exec()},
     methods: {
         exec: function(){
-            //this.url = baseUrl + '/' + this.w + 'x' + this.h + '.png'
-            this.url = 'https://placehold.jp' + '/' + this.w + 'x' + this.h + '.png'
+            this.url = baseUrl + '/' + this.w + 'x' + this.h + '.png'
+            //this.url = 'https://placehold.jp' + '/' + this.w + 'x' + this.h + '.png'
         },
         preset: function(){
             var x = this.p1.split(' | ')[0].split(' x ')
