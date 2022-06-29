@@ -27,7 +27,8 @@ Vue.createApp({
     mounted: function(){this.exec()},
     methods: {
         exec: function(){
-            this.url = baseUrl + '/' + this.w + 'x' + this.h + '.png'
+            //this.url = baseUrl + '/' + this.w + 'x' + this.h + '.png'
+            this.url = 'https://placehold.jp' + '/' + this.w + 'x' + this.h + '.png'
         },
         preset: function(){
             var x = this.p1.split(' | ')[0].split(' x ')
