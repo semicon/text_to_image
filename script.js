@@ -1,5 +1,5 @@
-var baseUrl = document.getElementById("js-appjs").src.replace(/\/script\.js.*/, '')
-//var baseUrl = 'https://placehold.jp'
+//var baseUrl = document.getElementById("js-appjs").src.replace(/\/script\.js.*/, '')
+var baseUrl = 'https://placehold.jp'
 // ga
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-33501423-1']);
