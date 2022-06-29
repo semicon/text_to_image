@@ -53,7 +53,7 @@ Vue.createApp({
             fontsize:"",
             format:"png",
             color:"#ffffff",
-            bgcolor:"#00fb00",
+            bgcolor:"#00c400",
             usecss:false,
             css:[
                 "border-radius:15px;",
