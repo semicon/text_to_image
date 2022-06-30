@@ -57,7 +57,7 @@ Vue.createApp({
             usecss:false,
             css:[
                 "border-radius:15px;",
-                "background: -webkit-gradient(linear, left top, left bottom, from(#00fb00), to(#cccccc));",
+                "background: -webkit-gradient(linear, left top, left bottom, from(#00fb00), to(#208820));",
                 ""
             ].join("\n")
         }
